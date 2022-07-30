@@ -1,6 +1,6 @@
 ---
-name: General Questions
-about: Describe this issue template's purpose here.
+name: Questions
+about: For any general questions.
 title: ''
 labels: question
 assignees: ahmed1996said, rmuhtaseb

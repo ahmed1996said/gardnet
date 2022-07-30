@@ -32,3 +32,13 @@ Glaucoma Classification, Color Fundus Images. Computer Aided Diagnosis
     ├── requirements.txt                            # contains packages and libraries needed to run our code
     ├── run.py                  	                # contains training script 
     └── run_fold.py                                 # contains training script with cross validation
+    
+## :package: Requirements
+You can install all requirements using `pip` by running this command:
+
+``` pip install -r requirements.txt```
+
+Generally speaking, our code uses the following core packages: 
+- PyTorch 1.9.0
+- [wandb](https://wandb.ai): you need to create an account for logging purposes
+

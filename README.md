@@ -42,3 +42,9 @@ Generally speaking, our code uses the following core packages:
 - PyTorch 1.9.0
 - [wandb](https://wandb.ai): you need to create an account for logging purposes
 
+## :arrow_forward:	 Training
+_Add instructions to run the code_
+
+## :question: Questions?
+For all code related questions, please create a GitHub Issue above and our team will respond to you as soon as possible.
+

@@ -18,8 +18,17 @@ Glaucoma Classification, Color Fundus Images. Computer Aided Diagnosis
 ## :open_file_folder: File Structure 
 
     /
-    ├── configs                 	# contains experiment configuration .yaml files required to train
+    ├── configs                 	                # contains experiment configuration .yaml files required to train
+    ├── notebooks                 	                # contains .ipynb notebooks for preprocessing and testing
+            ├──GradCAM.ipynb                        # GradCAM Visualization script
+            ├──Testing Ensemble-AIROGS.ipynb        # Testing script for the ensemble model on AIROGS
+            ├──Testing Ensemble-RIM-ONE DL.ipynb    # Testing script for the ensemble model on RIM-ONE DL
+            ├──Testing RIM ONE DL.ipynb             # Finetune and testing script on RIM-ONE DL
+            ├── bbox_crop.ipynb                     # Preprocessing script for cropping AIROGS using bounding box coords
+            └── central_crop.ipynb                  # Preprocessing scrirpt for cropping AIROGS using central crrop
     ├── README.md
-    ├── early_stopping.py           # contains script for early stopping
-    ├── run.py                  	# contains training script 
-    └── run_fold.py                 # contains training script with cross validation
+    ├── airogs_dataset.py                           # contains dataset class for AIROGS
+    ├── early_stopping.py                           # contains script for early stopping
+    ├── requirements.txt                            # contains packages and libraries needed to run our code
+    ├── run.py                  	                # contains training script 
+    └── run_fold.py                                 # contains training script with cross validation

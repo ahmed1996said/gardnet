@@ -1,7 +1,5 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2205.12902-<COLOR>.svg)](https://arxiv.org/abs/2205.12902)
 
-_Work in progress. Code will be released soon. You may check the **incomplete** [dev branch](https://github.com/ahmed1996said/gardnet/tree/dev) in the meantime._ 
-
 # GARDNet: Robust Multi-View Network for Glaucoma Classification in Color Fundus Images
 **Authors:** Ahmed Al Mahrooqi, Dmitrii Medvedev, Rand Muhtaseb, Mohammad Yaqub
 

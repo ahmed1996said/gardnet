@@ -32,7 +32,8 @@ Glaucoma Classification, Color Fundus Images. Computer Aided Diagnosis
     ├── requirements.txt                            # contains packages and libraries needed to run our code
     ├── run.py                  	                # contains training script 
     └── run_fold.py                                 # contains training script with cross validation
-    
+## Data
+You can download the the CSVs and checkpoints from this [Google Drive link](https://drive.google.com/drive/folders/1i9y8IZfKJkNtcxeIJ10EU2Z25eeMwFKe?usp=sharing):
 ## :package: Requirements
 You can install all requirements using `pip` by running this command:
 

@@ -20,12 +20,13 @@ Glaucoma Classification, Color Fundus Images. Computer Aided Diagnosis
     /
     ├── configs                 	                # contains experiment configuration .yaml files required to train
     ├── notebooks                 	                # contains .ipynb notebooks for preprocessing and testing
-            ├──GradCAM.ipynb                        # GradCAM Visualization script
-            ├──Testing Ensemble-AIROGS.ipynb        # Testing script for the ensemble model on AIROGS
-            ├──Testing Ensemble-RIM-ONE DL.ipynb    # Testing script for the ensemble model on RIM-ONE DL
-            ├──Testing RIM ONE DL.ipynb             # Finetune and testing script on RIM-ONE DL
-            ├── bbox_crop.ipynb                     # Preprocessing script for cropping AIROGS using bounding box coords
-            └── central_crop.ipynb                  # Preprocessing scrirpt for cropping AIROGS using central crrop
+            ├── GradCAM.ipynb                           # GradCAM Visualization script
+            ├── Testing Ensemble-AIROGS.ipynb           # Testing script for the ensemble model on AIROGS
+            ├── Testing Ensemble-RIM-ONE DL.ipynb       # Testing script for the ensemble model on RIM-ONE DL
+            ├── Testing RIM ONE DL.ipynb                # Finetune and testing script on RIM-ONE DL
+            ├── bbox_crop.ipynb                         # Preprocessing script for cropping AIROGS using bounding box coords
+            ├── central_crop.ipynb                      # Preprocessing scrirpt for cropping AIROGS using central crop
+            └── Optic Disc Segmentation and Crop.ipynb  # Optic disc segmentation and bounding box coords for preprocessing
     ├── README.md
     ├── airogs_dataset.py                           # contains dataset class for AIROGS
     ├── early_stopping.py                           # contains script for early stopping

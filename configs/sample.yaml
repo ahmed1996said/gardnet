@@ -1,0 +1,22 @@
+exp_id: 12345
+fold_num: 0
+resize: 256
+epochs: 50
+batch_size: 64
+num_workers: 64
+data_dir: /PATH/TO/DATA/PARENT/FOLDER
+images_dir_name: /PATH/TO/DATA
+run_test: True
+model_name: resnet18 # any model supported by timm (https://github.com/rwightman/pytorch-image-models/tree/master/timm/models)
+pretrained: True
+optimizer_name: Adam
+momentum: 0.1
+scheduler: null
+lr_step_period: 5
+lr: 1e-3
+patience: 5
+apply_augs: False
+apply_clahe: False
+dropout: 0.0
+apply_scaling: False
+polar_transform: False

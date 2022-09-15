@@ -33,8 +33,10 @@ Glaucoma Classification, Color Fundus Images. Computer Aided Diagnosis
     ├── requirements.txt                            # contains packages and libraries needed to run our code
     ├── run.py                  	                # contains training script 
     └── run_fold.py                                 # contains training script with cross validation
-## Data
-You can download the the CSVs and checkpoints from this [Google Drive link](https://drive.google.com/drive/folders/1i9y8IZfKJkNtcxeIJ10EU2Z25eeMwFKe?usp=sharing):
+## :framed_picture: Data
+- Download the training images from the [Airogs Challenge Website](https://airogs.grand-challenge.org/data-and-challenge/)
+- Download the training and testing images for [RIM-ONE DL Dataset](https://bit.ly/rim-one-dl-images)   
+- Download the the CSVs and checkpoints from this [Google Drive link](https://drive.google.com/drive/folders/1i9y8IZfKJkNtcxeIJ10EU2Z25eeMwFKe?usp=sharing):
 ## :package: Requirements
 You can install all requirements using `pip` by running this command:
 
@@ -45,7 +47,9 @@ Generally speaking, our code uses the following core packages:
 - [wandb](https://wandb.ai): you need to create an account for logging purposes
 
 ## :arrow_forward:	 Training
-_Add instructions to run the code_
+For training, you can run the following code:
+
+``` python run_fold.py configs/sample.yaml```
 
 ## :question: Questions?
 For all code related questions, please create a GitHub Issue above and our team will respond to you as soon as possible.
